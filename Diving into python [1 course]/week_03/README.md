@@ -20,7 +20,7 @@
 >>> text = reader.read()
 >>> text
 'some text'
->>> type(reader)
+>>> type(reader) 
 <class 'solution.FileReader'>
 >>> 
 ```
