@@ -1,4 +1,7 @@
 class Value:
+    def __init__(self):
+        self.money = 0
+
     def __set__(self, instance, value):
         self.money = value
 
